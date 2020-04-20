@@ -88,6 +88,8 @@ body {
     text-align: center;
 }
 
+/* new */
+
 .new {
     margin-top: 95px;
     margin-bottom: 110px;
@@ -98,6 +100,9 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.new .section-header {
     margin-bottom: 95px;
 }
 
@@ -144,19 +149,10 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-family: "Arial", sans-serif;
-    color: #535352;
+    color: #404040;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* advantages */
 
 .advantages {
     background-color: #ffcb78;
@@ -198,7 +194,7 @@ body {
 .advantages-item p {
     margin: 0;
     padding: 0;
-    color: #6b5939;
+    color: #404040;
 }
 
 .advantages-sam {
@@ -211,4 +207,56 @@ body {
 
 .advantages-econom {
     background: url(img/icon-thumbsup.png) 95px 0px no-repeat;
+}
+
+/* history */
+
+.history .section-header {
+    margin-top: 95px;
+    margin-bottom: 75px;
+}
+
+.history-title {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.history-source {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+    float: right;
+}
+
+.history-source a {
+    color: #834700;
+}
+
+.history-source a:hover {
+    color: #6a3900;
+}
+
+.history-source a:active {
+    color: #cab7a2;
+}
+
+dd img {
+    float: right;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+dd {
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+dd p {
+    color: #404040;
+    margin-bottom: 60px;
 }
